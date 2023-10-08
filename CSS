@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;    
+}
+
+
+.calculator{
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+    padding: 10px;
+    border-radius: 2%;
+    border-color: black;
+    border: 10px;
+    height:400px;
+    width: 450px;
+    background: linear-gradient( rgb(95, 95, 95),rgb(49, 49, 49));
+
+    
+}
+
+.display-box{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gainsboro;
+    border: black 0.7px;
+    border-radius: 4px;
+    height: 100%;
+    width: 95%;
+    font: bold;
+    font-size: 1.7em;
+    padding-left: 8px;
+    color: black;
+    
+}
+
+#bttn{
+    background-color: crimson;
+    border: none;
+}
+
+input[type=button]{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 4px;
+    height: 80%;
+    width: 95%;
+    font-size: 20px;
+}
+
+input:active[type=button]{
+    background-color: #453a3d;
+    box-shadow: 0px 0px 0px #292828;
+    
+}
+.sign{
+    width: 90px;
+}
